@@ -1,0 +1,1 @@
+from .msg_chn import MSG_CHN
