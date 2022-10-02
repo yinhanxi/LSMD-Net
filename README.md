@@ -46,3 +46,19 @@ Download [KITTI Depth Completion](http://www.cvlibs.net/datasets/kitti/eval_dept
              |--livox_gen_list.py
              |--sgm_remove_outliers.py           
 ```
+
+## Training and Evaluation
+* Training procedure
+```
+sh samples/single_train.sh
+```
+* Evalution procedure
+```
+sh samples/run_infer.sh
+```
+
+## Citation
+If you find our work useful, please consider to cite our work.
+
+## Acknowledgement
+Part of the code is adopted from previous works: [CoEx](https://github.com/antabangun/coex) and [MSG-CHN](https://github.com/anglixjtu/msg_chn_wacv20).
