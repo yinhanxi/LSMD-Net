@@ -14,7 +14,7 @@ Depth sensing is critical to many computer vision applications but remains chall
 - pytorch-lightning 1.5.10
 
 ## Data Preparation
-Download [KITTI Depth Completion](http://www.cvlibs.net/datasets/kitti/eval_depth.php?benchmark=depth_completion), [KITTI Stereo 2015](http://www.cvlibs.net/datasets/kitti/eval_scene_flow.php?benchmark=stereo) and our home-made [Livox-Stereo](https://pan.baidu.com/s/1EKopyRLRtJ-BhbLm5CmI0w) (Access code: 1GSB) Dataset. Set the directory structure for data as follows:
+Download [KITTI Depth Completion](http://www.cvlibs.net/datasets/kitti/eval_depth.php?benchmark=depth_completion), [KITTI Stereo 2015](http://www.cvlibs.net/datasets/kitti/eval_scene_flow.php?benchmark=stereo), [KITTI RAW Data](https://www.cvlibs.net/datasets/kitti/raw_data.php) and our home-made [Livox-Stereo Dataset](https://pan.baidu.com/s/1EKopyRLRtJ-BhbLm5CmI0w) (Access code: 1GSB). Set the directory structure for data as follows:
 
 ```
 ./data/
@@ -36,5 +36,13 @@ Download [KITTI Depth Completion](http://www.cvlibs.net/datasets/kitti/eval_dept
               |--kitti_depth_completion_val.json
               |--generate_depth_completion_train_val_test.py
               |--generate_stereo_test.py
-     |--livox/    
+     |--livox/
+             |--data/
+                    |--indoor/
+                    |--outdoor/
+             |--livox_test.json
+             |--livox_train.json
+             |--livox_val.json
+             |--livox_gen_list.py
+             |--sgm_remove_outliers.py           
 ```
