@@ -11,7 +11,7 @@ Depth sensing is critical to many computer vision applications but remains chall
 ## Dependency
 - Python 3.9
 - Pytorch 1.11.0
-- pytorch-lightning 1.5.10
+- Pytorch-lightning 1.5.10
 
 ## Data Preparation
 Download [KITTI Depth Completion](http://www.cvlibs.net/datasets/kitti/eval_depth.php?benchmark=depth_completion), [KITTI Stereo 2015](http://www.cvlibs.net/datasets/kitti/eval_scene_flow.php?benchmark=stereo), [KITTI RAW Data](https://www.cvlibs.net/datasets/kitti/raw_data.php) and our home-made [Livox-Stereo Dataset](https://pan.baidu.com/s/1EKopyRLRtJ-BhbLm5CmI0w) (Access code: 1GSB). Set the directory structure for data as follows:
