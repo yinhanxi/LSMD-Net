@@ -1,4 +1,4 @@
-(not completed)
+(Not completed. The author has been under the weather recently. More details will be updated later.)
 # LSMD-Net
 This is an implementation (in PyTorch) for our paper "LSMD-Net: LiDAR-Stereo Fusion with Mixture Density Network for Depth Sensing", [ACCV 2022].
 
